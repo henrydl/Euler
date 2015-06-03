@@ -13,8 +13,8 @@ int count(int top){
 }
       
 int main(){
-  //cout << count(1000) << endl;
-  assert(count(10) == 22);
+  cout << count(1000) << endl;
+  assert(count(10) == 23);
   return 1;
 }
 
