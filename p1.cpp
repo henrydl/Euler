@@ -1,5 +1,6 @@
 #include <iostream>
 #include <assert.h>
+#include <math.h>
 using namespace std;
 
 int count(int top){
@@ -13,8 +14,9 @@ int count(int top){
 }
       
 int main(){
-  //cout << count(1000) << endl;
-  assert(count(10) == 22);
-  return 1;
+  assert(count(10) == 23);
+  assert(count(1000) == 233168);
+  cout << count(1000) << endl;
+  return 0;
 }
 
